@@ -2,7 +2,7 @@
 
 @section('content')
     <h1>Tag</h1>
-    <a class="btn btn-success" href="/tag/create-tag.php">Create</a>
+    <a class="btn btn-success" href="/tag/create.php">Create</a>
     <table class="table">
         <tr>
             <th>Title</th>
@@ -14,8 +14,8 @@
             <tr>
                 <td>{{ $tag->title }}</td>
                 <td>{{ $tag->slug }}</td>
-                <td><a href="/tag/update-tag.php?id={{$tag->id}}" class="btn btn-outline-primary">update</a></td>
-                <td><a href="/tag/delete-tag.php?id={{$tag->id}}" class="btn btn-outline-danger">delete</a></td>
+                <td><a href="/tag/update.php?id={{$tag->id}}" class="btn btn-outline-primary">update</a></td>
+                <td><a href="/tag/delete.php?id={{$tag->id}}" class="btn btn-outline-danger">delete</a></td>
             </tr>
         @endforeach
     </table>

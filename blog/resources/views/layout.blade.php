@@ -13,6 +13,7 @@
         <div class="col">
             @yield('header')
             @yield('content')
+            @yield('form')
         </div>
     </div>
 </div>

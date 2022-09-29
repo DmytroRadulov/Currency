@@ -1,14 +1,13 @@
 {
   "autoload": {
     "psr-4": {
-      "web\\": "../blog"
-
+      "blog\\": "public"
     }
   },
   "require": {
     "guzzlehttp/guzzle": "^7.0",
-    "illuminate/database": "^9.31",
-    "illuminate/events": "^9.31",
-    "illuminate/view": "^9.31"
+    "illuminate/database": "^9.32",
+    "illuminate/events": "^9.32",
+    "illuminate/view": "^9.32"
   }
 }
