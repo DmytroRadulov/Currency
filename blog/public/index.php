@@ -7,3 +7,4 @@ require_once __DIR__ . '/../config/blade.php';
 /** @var $blade */
 
 echo $blade->make('pages/index')->render();
+
