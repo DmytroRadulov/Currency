@@ -36,9 +36,9 @@ $router->post('/category/update', [CategoryController::class, 'update']);
 $router->get('/category/{id}/delete', [CategoryController::class, 'destroy']);
 
 $router->get('/tag', [TagController::class, 'index']);
-$router->get('/tag/{id}/show', [CategoryController::class, 'show']);
-$router->get('/tag/create', [CategoryController::class, 'create']);
-$router->post('/tag/store', [CategoryController::class, 'store']);
-$router->get('/tag/{id}/edit', [CategoryController::class, 'edit']);
-$router->post('/tag/update', [CategoryController::class, 'update']);
-$router->get('/tag/{id}/delete', [CategoryController::class, 'destroy']);
+$router->get('/tag/{id}/show', [TagController::class, 'show']);
+$router->get('/tag/create', [TagController::class, 'create']);
+$router->post('/tag/store', [TagController::class, 'store']);
+$router->get('/tag/{id}/edit', [TagController::class, 'edit']);
+$router->post('/tag/update', [TagController::class, 'update']);
+$router->get('/tag/{id}/delete', [TagController::class, 'destroy']);
